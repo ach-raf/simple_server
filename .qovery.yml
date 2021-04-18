@@ -1,0 +1,11 @@
+---
+application:
+  name: "simple-server"
+  project: "simple_server"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-simple-server"
+  routes:
+  - application_name: "simple-server"
+    paths:
+    - "/*"
